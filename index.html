@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon icon-cut" href="img/icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delson Pilar</title>
+</head>
+
+<body>
+
+    <header>
+        <p><span>D</span>elson Pilar</p>
+        <nav>
+            <a href="#inicio" class="a-header">Início</a>
+            <a href="#sobre" class="a-header">Sobre</a>
+            <a href="#projetos" class="a-header">Projetos</a>
+            <a href="#contato" class="a-header">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="apresentacao" id="inicio">
+
+            <div class="content-1">
+                <h1 class="borda-baixa">Delson Pilar</h1>
+
+                <span><cite>"A tecnologia move o mundo." <br>Steve Jobs</cite></span>
+
+                <div class="social">
+                    <button class="button type type1">
+                        <a href="https://www.linkedin.com/in/delson-dubal-pilar-2132a32b3/">
+                            <div class="img-button img-button-1"></div>
+                        </a>
+                    </button>
+                    <button class="button type type2">
+                        <a href="https://github.com/Delson16">
+                            <div class="img-button img-button-2"></div>
+                        </a>
+                    </button>
+                    <button class="button type type3">
+                        <a href="docs/curriculo.pdf" download>
+                            <div class="img-button img-button-3"></div>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="content-2">
+                <img src="img/minha-imagem.jpeg" alt="foto minha">
+            </div>
+
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2 class="borda-baixa">Sobre mim</h2>
+
+            <div class="sobre-contents">
+
+                <div class="content-3" data-aos="fade-right">
+                    <h3 class="borda-baixa-curta">Me conheça um pouco</h3>
+                    <p>Meu nome é Delson Pilar, tenho 18 anos e um gosto muito grande pela área da tecnologia. No
+                        momento, estou cursando Desenvolvimento Web Full Stack pelo IOS (Instituto da Oportunidade
+                        Social) e concluindo o terceiro ano do ensino médio. Sou um jovem no início de carreira que
+                        possui como objetivo se tornar um engenheiro de software no futuro, com foco no desenvolvimento
+                        backend. Atualmente, possuo conhecimentos nas linguagens front-end, como JavaScript, HTML e CSS.
+                        Além disso, tenho uma boa comunicação e oratória, habilidades que espero poder empregar para
+                        contribuir em projetos significativos com soluções criativas e inovadoras.</p>
+                </div>
+
+                <div class="content-4" data-aos="fade-left">
+
+                    <h3 class="borda-baixa-curta">Ferramentas que trabalho</h3>
+
+                    <div id="texto-ferramenta">
+                        <div class="ferramentas">
+                            <img src="img/html.png" alt="logo-html" onclick="mais(1)">
+                            <img src="img/css.png" alt="logo-css" onclick="mais(2)">
+                            <img src="img/js.png" alt="logo-js" onclick="mais(3)">
+                            <img src="img/bootstrap.png" alt="logo-bootstrap" onclick="mais(4)">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+
+            <h2 class="borda-baixa">Projetos</h2>
+
+            <div class="projeto" data-aos="fade-up">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-1.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">Adventure Seeker</h3>
+
+                    <p>Este projeto foi desenvolvido como uma prática para aprimorar as habilidades em HTML, CSS e
+                        JavaScript. O site apresenta uma série de destinos de viagem, com ênfase especial na técnica de
+                        paralaxe. Entre os destinos abordados estão Roma, Nova York e Kioto. Além disso, incorpora
+                        botões interativos que permitem ao usuário alternar entre diferentes tópicos em cada seção de
+                        texto.</p>
+
+                    <div class="links">
+                        <button class="button type type2">
+                            <a href="https://delson16.github.io/AdventureSeeker/">Página</a>
+                        </button>
+                        <button class="button type type2">
+                            <a href="https://github.com/Delson16/AdventureSeeker">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="projeto" data-aos="fade-up">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-2.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">Jogo do Número Misterioso</h3>
+
+                    <p>Este projeto foi desenvolvido com o propósito de desenvolver um jogo simples utilizando
+                        JavaScript. O jogo consiste em um sistema que desafia o jogador a adivinhar um número misterioso
+                        dentro de um intervalo entre 0 e 100. O usuário digita um valor e recebe feedback indicando se o
+                        valor é maior ou menor que o número secreto.</p>
+
+                    <div class="links">
+                        <button class="button type type2">
+                            <a href="https://delson16.github.io/jogo-do-numero-misterioso/">Página</a>
+                        </button>
+                        <button class="button type type2">
+                            <a href="https://github.com/Delson16/jogo-do-numero-misterioso">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="projeto" data-aos="fade-up">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-3.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">One Home</h3>
+
+                    <p>Este projeto foi desenvolvido na etapa final do ciclo. Tinha como objetivo colocar em prática os
+                        conteúdos aprendidos durante o curso, bem como realizar uma homenagem aos nossos familiares por
+                        meio dos setores de uma empresa. O site foi desenvolvido usando CSS e HTML.</p>
+
+                    <div class="links">
+                        <button class="button type type2">
+                            <a href="https://delson16.github.io/projeto_familia/">Página</a>
+                        </button>
+                        <button class="button type type2">
+                            <a href="https://github.com/Delson16/projeto_familia">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="div-projeto-estudo">
+            <button class="button projeto-estudo">
+                <a href="#">Confira um pouco sobre a minha tragetória no desenvolvimeto web</a>
+            </button>
+        </div>
+
+
+
+        </section>
+
+        <section class="contatos" id="contato">
+
+            <div class="menu">
+                <h2 class="borda-baixa">Entre em contato</h2>
+                <span>Se você quiser entrar em contato comigo pode me enviar um e-mail por aqui</span>
+            </div>
+
+            <div class="contato-contents" data-aos="zoom-in">
+                <form action="https://formsubmit.co/dubalpilardelson@gmail.com" method="POST">
+                    <div class="dados">
+                        <div class="nome">
+                            <label for="name" id="label-nome">Seu nome</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="email">
+                            <label for="email" id="label-mail">Seu e-mail</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <label for="msg">Sua mensagem</label>
+                    <textarea name="message" id="msg" cols="30" rows="6"></textarea>
+                    <input type="submit" value="Enviar mensagem">
+                    <input type="hidden" name="_next" value="obrigado.html">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="final">
+            <p><i><b> &copy; Delson Pilar</b></i></p>
+            <p>Obrigado pela sua atenção</p>
+        </div>
+        <div class="social-2">
+            <a href="https://github.com/Delson16">
+                <img src="img/git.jpg" alt="github-logo">
+            </a>
+            <a href="https://www.linkedin.com/in/delson-dubal-pilar-2132a32b3/">
+                <img src="img/linkedin.png" alt="linkedin-logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+
+</html>
